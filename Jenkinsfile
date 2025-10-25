@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven'        // o nome do Maven configurado no Jenkins (deixe 'Maven' se não alterou)
+        maven 'Maven 3.9.9'        // o nome do Maven configurado no Jenkins (deixe 'Maven' se não alterou)
         jdk 'JDK 24'         // exatamente como aparece na tela de configuração
     }
 
